@@ -83,5 +83,17 @@ int main(){
 	//p3.borrar();
 	//p4.crear();
 	
+	//clases heredadas(hijos)
+
+   //clase hijo cliente
+    
+   class Cliente : public Persona{
+	private://atributos
+		int nit;
+	public:
+		Cliente(string, string, string , int , int , int , int , int );
+		void mostrar();
+    };
+	
 	return 0;
 }
